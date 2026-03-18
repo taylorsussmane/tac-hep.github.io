@@ -30,7 +30,7 @@ I did my undergraduate at the University of Tennessee Knoxville, advised by Dr. 
 During my undergraduate, I spent a summer at CERN working under Dr. Phillip Sommer studying gauge boson polarization in vector boson fusion events. 
 
 ### Project
-I am writing a GPU-enabled algorithm for CMS's offline track reconstruction using the Alpaka portability library.
+I am writing a GPU-enabled hit masking algorithm for offline track reconstruction at CMS using the Alpaka portability library.
 Currently, CMS's offline tracking does not have many GPU-enabled algorithms, but in consideration of the upcoming HL-LHC upgrade, there has been a push for more of the offline tracking to be on GPU to increase the speed of algorithms.
 Because track reconstruction is a iterative process where each iteration further refines the tracks, between iterations, it is necessary to do hit masking.
 Hit masking is the process of removing the hits that have already been used to construct tracks, ensuring that they do not get used later on. 
@@ -40,6 +40,7 @@ I am working on this project with Charis Kleio Koraka of University of Wisconsin
 ### Recent Accomplishments
 * Improving skills in git, python, C++
 * Learned CUDA and Alpaka GPU languages
+* Learned CMSSW, the software framework of track reconstruction
 * Presentation to CMS Tracking Group POG 
 
 ### Mentors
